@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:elevation="6dp"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="8dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+
+        <ImageView
+            android:id="@+id/habit_image"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            tools:src="@drawable/_3d_target"
+            />
+
+        <ImageView
+
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/edit"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/pencil"
+            app:layout_constraintEnd_toStartOf="@id/delete_btn"
+            android:layout_marginEnd="8dp"/>
+
+
+        <ImageView
+            android:id="@+id/delete_btn"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/delete"
+            app:layout_constraintEnd_toEndOf="@id/progress_bar_layout"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/habit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Drinking"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="18dp"
+            android:textFontWeight="600"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@id/habit_image"
+            app:layout_constraintTop_toTopOf="@id/habit_image"/>
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:id="@+id/description"
+            android:layout_width="0dp"
+
+            android:maxLines="2"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/habit_text"
+            app:layout_constraintTop_toBottomOf="@id/habit_text"
+            tools:text="description"/>
+
+        <LinearLayout
+            app:layout_constraintTop_toBottomOf="@id/description"
+            app:layout_constraintStart_toStartOf="@id/habit_text"
+            app:layout_constraintEnd_toStartOf="@id/progress_bar_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="6dp">
+
+
+            <TextView
+                android:id="@+id/start_dates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Oct 21 - September 21"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/end_dates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Oct 21 - September 21"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/progress_bar_layout"
+            app:layout_constraintTop_toBottomOf="@id/delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:id="@+id/progress_bar"/>
+
+
+            <TextView
+
+                android:layout_marginStart="6dp"
+                android:id="@+id/tvProgressCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#444"
+                tools:layout_editor_absoluteX="353dp"
+                tools:layout_editor_absoluteY="34dp"
+                tools:text="8/21" />
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/done_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:text="Done"
+            app:icon="@drawable/baseline_done_24"
+            app:layout_constraintTop_toBottomOf="@id/progress_bar_layout"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

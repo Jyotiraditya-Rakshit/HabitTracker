@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HabitTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorPrimary">#9C27B0</item>
+        <item name="colorOnPrimary">#9C27B0</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- This sets the status bar color -->
+        <item name="android:statusBarColor">#9C27B0</item>
+
+    </style>
+
+    <style name="Theme.HabitTracker" parent="Base.Theme.HabitTracker" />
+</resources>

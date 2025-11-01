@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HabitTracker</string>
+    <string name="add_habit">Add Habit</string>
+</resources>
