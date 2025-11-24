@@ -6,14 +6,51 @@ Data is synced using **Firestore** for habits and **Realtime Database** for prog
 
 ---
 
-## 📱 Screenshots
+# 🛠️ How It Works (Step-by-Step)
+
+This section shows how to use the Habit Tracker App with short visual GIF previews.
+
+---
+
+## 1️⃣ Add a New Habit
+
+- Tap **Add Habit**
+- Enter habit name & description  
+- Select start & end date  
+- Choose an icon  
+- Press **Add Habit**
 
 <p align="center">
-  <img src="assets/img1.jpeg" width="280" />
-  <img src="assets/img3.jpeg" width="280" />
+  <img src="assets/add_habit.gif" width="300"/>
 </p>
 
 ---
+
+## 2️⃣ Mark a Habit as Done
+
+- Open your habit list  
+- Tap the **Done** button  
+- Progress increases automatically  
+- App prevents marking twice on the same day  
+
+<p align="center">
+  <img src="assets/mark_habit.gif" width="300"/>
+</p>
+
+---
+
+## 3️⃣ Completing a Habit
+
+- When progress reaches the total days  
+- A celebration screen is shown  
+- The habit is moved out of the active list  
+
+<p align="center">
+  <img src="assets/finish_habit.gif" width="300"/>
+</p>
+
+---
+
 
 ## 🎯 Features
 
