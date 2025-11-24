@@ -21,7 +21,7 @@ This section shows how to use the Habit Tracker App with short visual GIF previe
 - Press **Add Habit**
 
 <p align="center">
-  <img src="assets/add_habit.gif" width="300"/>
+  <img src="assets/vid3.gif" width="300"/>
 </p>
 
 ---
@@ -34,7 +34,7 @@ This section shows how to use the Habit Tracker App with short visual GIF previe
 - App prevents marking twice on the same day  
 
 <p align="center">
-  <img src="assets/mark_habit.gif" width="300"/>
+  <img src="assets/vid1.gif" width="300"/>
 </p>
 
 ---
@@ -46,7 +46,17 @@ This section shows how to use the Habit Tracker App with short visual GIF previe
 - The habit is moved out of the active list  
 
 <p align="center">
-  <img src="assets/finish_habit.gif" width="300"/>
+  <img src="assets/vid2.gif" width="300"/>
+</p>
+
+---
+
+## 📱 Screenshots
+
+<p align="center">
+  <img src="assets/img1.jpeg" width="280" />
+  <img src="assets/img2.jpeg" width="280" />
+  <img src="assets/img3.jpeg" width="280" />
 </p>
 
 ---
@@ -67,7 +77,4 @@ This section shows how to use the Habit Tracker App with short visual GIF previe
 
 ---
 
-## 🗄 Database Structure
-
-### **1️⃣ Firestore — stores habit details**
 
