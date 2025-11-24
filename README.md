@@ -10,7 +10,6 @@ Data is synced using **Firestore** for habits and **Realtime Database** for prog
 
 <p align="center">
   <img src="assets/img1.jpeg" width="280" />
-  <img src="assets/img2.jpeg" width="280" />
   <img src="assets/img3.jpeg" width="280" />
 </p>
 
