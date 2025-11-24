@@ -80,7 +80,7 @@ This section shows how to use the Habit Tracker App with short visual GIF previe
 
 ## 🧩 Installation
 
-Follow these steps to install and run the Food PG App on your device:
+Follow these steps to install and run the App on your device:
 
 Here is the link to the zip file : https://drive.google.com/file/d/1hRRv_bFcb3wh99oAEI2nEY_1Iht9EAmn/view?usp=sharing
 
